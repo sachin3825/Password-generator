@@ -141,7 +141,7 @@ generateBtn.addEventListener("click", () => {
 
   // let's start the jouney to find new password
   // console.log("Starting the Journey");
-  //*remove old password
+  //remove old password
   password = "";
 
   //let's put the stuff mentioned by checkboxes
@@ -172,7 +172,7 @@ generateBtn.addEventListener("click", () => {
 
   if (symbolsCheck.checked) funcArr.push(generateSymbol);
 
-  //*compulsory addition
+  //compulsory addition
   for (let i = 0; i < funcArr.length; i++) {
     password += funcArr[i]();
   }
